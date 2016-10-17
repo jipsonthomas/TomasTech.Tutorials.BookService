@@ -18,7 +18,7 @@ namespace ThomasTech.Tutorials.BookService.Controllers
         private ThomasTechTutorialsBookServiceContext db = new ThomasTechTutorialsBookServiceContext();
 
         // GET: api/Books
-        public IQueryable<Book> GetBooks()
+        public IQueryable<BookDTO> GetBooks()
         {
             //return db.Books
             //    .Include(b => b.Author);
